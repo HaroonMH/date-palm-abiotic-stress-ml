@@ -1,0 +1,5 @@
+stress	feature_set	classifier	cv_auROC	test_accuracy	test_auROC	test_auPRC
+cold	TPC	SVM	0.9981	78.5	79.48	67.72
+heat	TPC	SVM	0.9994	82.08	85.92	71.21
+drought	TPC	SVM	0.9961	80.39	82.6	69.4
+salt	CKSAAP+TPC	SVM	0.9678	73.62	81.39	74.39

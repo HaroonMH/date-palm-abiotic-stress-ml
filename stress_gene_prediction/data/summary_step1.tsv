@@ -1,0 +1,5 @@
+stress	single_stress_candidates	sequences_written	missing_sequence
+cold	601	601	0
+heat	448	448	0
+drought	510	510	0
+salt	759	759	0

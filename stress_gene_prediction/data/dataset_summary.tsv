@@ -1,0 +1,5 @@
+stress	positive_set	negative_set	train_total	train_positive	train_negative	test_total	test_positive	test_negative
+cold	269	754	716	188	528	307	81	226
+heat	193	830	716	135	581	307	58	249
+drought	245	778	717	172	545	306	73	233
+salt	316	707	716	221	495	307	95	212

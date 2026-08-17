@@ -2,7 +2,6 @@
 # Bulk source data -- tens of GB, re-downloadable from NCBI
 # ---------------------------------------------------------------
 Date_Palm_Project Data/
-protein.faa
 
 # Contains commercial terms (fee schedule) -- keep out of version control
 date_palm_research_pipeline.pdf

@@ -1,0 +1,5 @@
+stress	known_excluded	unlabeled_proteins	distinct_genes	grouping	proteins_p>0.5	genes_p>0.5	proteins_p>0.7	genes_p>0.7	proteins_p>0.9	genes_p>0.9
+cold	601	48200	28890	GeneID	12525	8221	9627	6399	5932	4004
+heat	448	48353	28973	GeneID	7876	5054	5407	3544	2822	1925
+drought	510	48291	28906	GeneID	7490	4607	4514	2925	2222	1495
+salt	759	48042	28819	GeneID	10701	6671	7315	4599	3608	2277

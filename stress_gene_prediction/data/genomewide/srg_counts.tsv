@@ -1,0 +1,5 @@
+stress	known_excluded	unlabeled_scored	predicted_SRGs_p>0.5	predicted_SRGs_p>0.7	predicted_SRGs_p>0.9
+cold	601	48200	12525	9627	5932
+heat	448	48353	7876	5407	2822
+drought	510	48291	7490	4514	2222
+salt	759	48042	10701	7315	3608

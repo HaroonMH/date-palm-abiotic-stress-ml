@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------
+# Bulk source data -- tens of GB, re-downloadable from NCBI
+# ---------------------------------------------------------------
+Date_Palm_Project Data/
+protein.faa
+
+# Contains commercial terms (fee schedule) -- keep out of version control
+date_palm_research_pipeline.pdf
+
+# ---------------------------------------------------------------
+# Environment
+# ---------------------------------------------------------------
+stress_gene_prediction/.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------
+# Regenerable intermediates (excluded to keep the repo lean)
+# ---------------------------------------------------------------
+# Feature matrices ~192 MB -- regenerate: 04_extract_features.py
+stress_gene_prediction/data/features/
+
+# Trained model binaries ~71 MB -- regenerate: 08_finalize_best_models.py
+stress_gene_prediction/data/final_models/
+
+# Per-chunk genome-wide scoring intermediates
+stress_gene_prediction/data/genomewide/chunks/
+stress_gene_prediction/data/genomewide_v2/chunks/
+stress_gene_prediction/data/genomewide/tmp/
+stress_gene_prediction/data/genomewide_v2/tmp/
+
+# Ad-hoc archives created for client delivery
+stress_gene_prediction/data/*.zip
+
+# ---------------------------------------------------------------
+# OS noise
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db

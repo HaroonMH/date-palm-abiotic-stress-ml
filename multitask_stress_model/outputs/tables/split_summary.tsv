@@ -1,0 +1,5 @@
+stress	train_positive	train_negative	test_positive	test_negative
+cold	314	13748	135	5892
+heat	210	13852	89	5938
+drought	324	13738	140	5887
+salt	385	13677	165	5862

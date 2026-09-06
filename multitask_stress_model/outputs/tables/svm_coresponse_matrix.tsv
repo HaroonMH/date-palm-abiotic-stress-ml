@@ -1,0 +1,5 @@
+	cold	heat	drought	salt
+cold	912	196	298	373
+heat	196	602	163	139
+drought	298	163	1071	505
+salt	373	139	505	1320

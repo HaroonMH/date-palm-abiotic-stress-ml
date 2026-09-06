@@ -1,0 +1,13 @@
+model	stress	auROC	auPRC	positive_rate	auPRC_lift_over_random
+A: per-stress SVM	cold	86.89	43.21	2.24	19.29
+A: per-stress SVM	heat	83.36	36.54	1.48	24.74
+A: per-stress SVM	drought	87.27	46.55	2.32	20.04
+A: per-stress SVM	salt	85.63	38.02	2.74	13.89
+B: independent MLP	cold	81.68	34.47	2.24	15.39
+B: independent MLP	heat	79.87	21.76	1.48	14.73
+B: independent MLP	drought	84.04	39.94	2.32	17.19
+B: independent MLP	salt	78.02	37.0	2.74	13.52
+C: multi-task (shared)	cold	83.85	38.31	2.24	17.1
+C: multi-task (shared)	heat	82.46	38.97	1.48	26.39
+C: multi-task (shared)	drought	80.43	44.49	2.32	19.15
+C: multi-task (shared)	salt	78.73	42.0	2.74	15.34

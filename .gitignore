@@ -33,6 +33,29 @@ stress_gene_prediction/data/genomewide_v2/tmp/
 stress_gene_prediction/data/*.zip
 
 # ---------------------------------------------------------------
+# Multi-task model: regenerable intermediates
+# ---------------------------------------------------------------
+# ESM-2 embeddings, 366 MB. The proteome file alone is 125 MB, which EXCEEDS
+# GitHub's 100 MB hard per-file limit and would cause the push to be rejected.
+# Regenerate: 23_extract_esm_embeddings.py
+multitask_stress_model/data/embeddings/
+
+# Derived FASTA files -- regenerate: 20_build_multilabel_dataset.py (28 MB)
+# and 21_run_cdhit_global.sh (13 MB, ~45 s). The label and split TSVs that
+# actually define the dataset ARE tracked.
+multitask_stress_model/data/labels/*.fasta
+multitask_stress_model/data/nr/*.fasta
+multitask_stress_model/data/nr/*.clstr
+
+# ---------------------------------------------------------------
+# Manuscripts -- drafts under active revision, not version controlled.
+# The scripts that generate them (17_generate_manuscript.py,
+# 29_merge_into_manuscript.py) ARE tracked, so they remain reproducible.
+# ---------------------------------------------------------------
+*.docx
+stress_gene_prediction/manuscript/
+
+# ---------------------------------------------------------------
 # OS noise
 # ---------------------------------------------------------------
 .DS_Store

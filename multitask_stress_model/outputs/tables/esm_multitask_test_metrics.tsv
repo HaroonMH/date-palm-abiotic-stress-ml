@@ -1,0 +1,5 @@
+stress	auROC	auPRC	positive_rate	auPRC_lift_over_random
+cold	83.85	38.31	2.24	17.1
+heat	82.46	38.97	1.48	26.39
+drought	80.43	44.49	2.32	19.15
+salt	78.73	42.0	2.74	15.34

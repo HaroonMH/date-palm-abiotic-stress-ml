@@ -1,0 +1,41 @@
+stress	rank	SVM_candidate	MultiTask_candidate
+cold	1	myb-related protein 306	ubiquitin receptor RAD23d-like
+cold	2	3-ketoacyl-CoA synthase 12-like	protein SRC1
+cold	3	probable histidine kinase 4	ubiquitin receptor RAD23b-like
+cold	4	14-3-3 protein 6-like	ubiquitin receptor RAD23c-like isoform X2
+cold	5	peroxidase 5-like	ubiquitin receptor RAD23c-like isoform X5
+cold	6	14-3-3 protein 6	uncharacterized protein LOC103695563 isoform X2
+cold	7	ABC transporter G family member 42-like	3-ketoacyl-CoA synthase 12-like
+cold	8	3-ketoacyl-CoA synthase 4-like	probable histidine kinase 4 isoform X1
+cold	9	3-ketoacyl-CoA synthase 12-like	uncharacterized protein LOC103719530 isoform X2
+cold	10	cellulose synthase-like protein D4	probable histidine kinase 4
+heat	1	ABC transporter G family member 42-like	ethylene-responsive transcription factor CRF2-like
+heat	2	heat stress transcription factor A-2c-like isoform X1	heat stress transcription factor A-2c-like isoform X1
+heat	3	ATP-dependent Clp protease ATP-binding subunit ClpA homolog CD4A, chlo	cinnamoyl-CoA reductase 1-like isoform X1
+heat	4	ras-related protein RABA5e	ABC transporter G family member 42-like
+heat	5	heat shock protein 81-1-like	protein LTO1 homolog
+heat	6	L-ascorbate peroxidase, cytosolic-like	L-ascorbate peroxidase, cytosolic-like
+heat	7	pleiotropic drug resistance protein 2-like	ABC transporter G family member 9-like
+heat	8	heat shock protein 81-1-like	nuclear transcription factor Y subunit B-1-like
+heat	9	protein LATE ELONGATED HYPOCOTYL-like isoform X1	F-box protein At4g18380-like
+heat	10	LOW QUALITY PROTEIN: heat shock protein 81-1	F-box protein At4g18380-like
+drought	1	transcription factor MYB1-like	uncharacterized protein LOC120107328, partial
+drought	2	transcription factor MYB1-like	uncharacterized protein LOC120106497
+drought	3	transcription factor MYB30-like	uncharacterized protein LOC120111701
+drought	4	transcription factor MYB1-like	uncharacterized protein LOC120106534
+drought	5	ABC transporter G family member 42-like	uncharacterized protein LOC120111218
+drought	6	probable WRKY transcription factor 41	uncharacterized protein LOC120112998
+drought	7	ABC transporter G family member 31	uncharacterized protein LOC120108839, partial
+drought	8	protein ZINC INDUCED FACILITATOR-LIKE 1-like isoform X2	uncharacterized protein LOC103720493
+drought	9	HVA22-like protein f isoform X1	homeobox-leucine zipper protein ATHB-13-like
+drought	10	sucrose synthase 2	uncharacterized protein LOC120107412
+salt	1	CBL-interacting protein kinase 19-like isoform X1	BTB/POZ domain-containing protein At1g21780-like
+salt	2	transcription factor MYB1-like	BTB/POZ domain-containing protein At1g21780
+salt	3	transcription factor MYB1-like	COBRA-like protein 4
+salt	4	transcription factor MYB36	prohibitin-3, mitochondrial-like
+salt	5	CBL-interacting protein kinase 19-like	prohibitin-3, mitochondrial-like
+salt	6	CBL-interacting protein kinase 8-like isoform X3	shaggy-related protein kinase eta
+salt	7	CBL-interacting protein kinase 18-like	serine/threonine-protein kinase SAPK2-like isoform X1
+salt	8	transcription factor MYB4-like	serine/arginine repetitive matrix protein 1
+salt	9	probable WRKY transcription factor 2	LOW QUALITY PROTEIN: COBRA-like protein 4
+salt	10	shaggy-related protein kinase eta	shaggy-related protein kinase eta-like

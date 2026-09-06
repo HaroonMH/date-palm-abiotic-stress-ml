@@ -1,0 +1,12 @@
+{
+  "embeddings": null,
+  "epochs": 200,
+  "batch_size": 256,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "dropout": 0.3,
+  "hidden": "512,256",
+  "patience": 25,
+  "val_fraction": 0.15,
+  "tag": "esm_multitask"
+}

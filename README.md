@@ -81,7 +81,7 @@ factors among those predicted for all four.
 | 2. Modelling | `04`–`09` | Six encodings × six classifiers, SVM-RFE, tuning, figures |
 | 3. Genome-wide prediction | `10`–`13` | Whole-proteome scoring, ranked candidates, MEME motifs |
 | 3b. Corrected ranking | `14`–`16` | Margin-based ranking, isoform collapsing by GeneID |
-| 5. Multi-label dataset | `20`–`22` | Multi-label targets, confident negatives, global leakage-free split |
+| 4. Multi-label dataset | `20`–`22` | Multi-label targets, confident negatives, global leakage-free split |
 | 5. PLM + multi-task | `23`–`25` | ESM-2 embeddings, shared-backbone network, ablation |
 | 6. Genome-wide (Stage 2) | `26`, `28` | Calibrated predictions, candidates, co-response |
 

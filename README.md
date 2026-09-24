@@ -147,3 +147,12 @@ a CUDA GPU — developed on an RTX 3060 (6 GB) — and is resumable.
   assignments inherit that annotation's errors and are biased toward families
   conserved between a monocot palm and a eudicot model. All predictions are
   computational hypotheses requiring experimental validation.
+
+
+## Citation
+
+If you use this code, please cite:
+
+```
+[citation to be added later]
+```

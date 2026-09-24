@@ -81,11 +81,9 @@ factors among those predicted for all four.
 | 2. Modelling | `04`–`09` | Six encodings × six classifiers, SVM-RFE, tuning, figures |
 | 3. Genome-wide prediction | `10`–`13` | Whole-proteome scoring, ranked candidates, MEME motifs |
 | 3b. Corrected ranking | `14`–`16` | Margin-based ranking, isoform collapsing by GeneID |
-| 4. Manuscript | `17` | Word manuscript with tables and figures embedded |
 | 5. Multi-label dataset | `20`–`22` | Multi-label targets, confident negatives, global leakage-free split |
-| 6. PLM + multi-task | `23`–`25` | ESM-2 embeddings, shared-backbone network, ablation |
-| 7. Genome-wide (Stage 2) | `26`, `28` | Calibrated predictions, candidates, co-response |
-| 8. Figures & merge | `27`, `29` | Stage 2 figures, manuscript merge |
+| 5. PLM + multi-task | `23`–`25` | ESM-2 embeddings, shared-backbone network, ablation |
+| 6. Genome-wide (Stage 2) | `26`, `28` | Calibrated predictions, candidates, co-response |
 
 Scripts `01`–`17` live in [`stress_gene_prediction/`](stress_gene_prediction/README.md),
 scripts `20`–`29` in [`multitask_stress_model/`](multitask_stress_model/README.md).

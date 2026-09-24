@@ -78,7 +78,6 @@ python3 23_extract_esm_embeddings.py --proteome # all 48,801, ~1-2 h
 python3 24_train_multitask.py               # shared backbone + 4 heads
 python3 25_evaluate_and_compare.py          # ablation: SVM / independent MLP / shared
 python3 26_genomewide_multitask.py          # genome-wide + co-response
-python3 27_figures_multitask.py             # figures
 ```
 
 Both embedding steps are resumable (completed shards are skipped). If you hit

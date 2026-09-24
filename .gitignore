@@ -3,9 +3,6 @@
 # ---------------------------------------------------------------
 Date_Palm_Project Data/
 
-# Contains commercial terms (fee schedule) -- keep out of version control
-date_palm_research_pipeline.pdf
-
 # ---------------------------------------------------------------
 # Environment
 # ---------------------------------------------------------------
@@ -29,14 +26,10 @@ stress_gene_prediction/data/genomewide_v2/chunks/
 stress_gene_prediction/data/genomewide/tmp/
 stress_gene_prediction/data/genomewide_v2/tmp/
 
-# Ad-hoc archives created for client delivery
-stress_gene_prediction/data/*.zip
-
 # ---------------------------------------------------------------
 # Multi-task model: regenerable intermediates
 # ---------------------------------------------------------------
-# ESM-2 embeddings, 366 MB. The proteome file alone is 125 MB, which EXCEEDS
-# GitHub's 100 MB hard per-file limit and would cause the push to be rejected.
+# ESM-2 embeddings, 366 MB. The proteome file alone is 125 MB, which EXCEEDS GitHub's 100 MB hard per-file limit 
 # Regenerate: 23_extract_esm_embeddings.py
 multitask_stress_model/data/embeddings/
 
@@ -46,14 +39,6 @@ multitask_stress_model/data/embeddings/
 multitask_stress_model/data/labels/*.fasta
 multitask_stress_model/data/nr/*.fasta
 multitask_stress_model/data/nr/*.clstr
-
-# ---------------------------------------------------------------
-# Manuscripts -- drafts under active revision, not version controlled.
-# The scripts that generate them (17_generate_manuscript.py,
-# 29_merge_into_manuscript.py) ARE tracked, so they remain reproducible.
-# ---------------------------------------------------------------
-*.docx
-stress_gene_prediction/manuscript/
 
 # ---------------------------------------------------------------
 # OS noise

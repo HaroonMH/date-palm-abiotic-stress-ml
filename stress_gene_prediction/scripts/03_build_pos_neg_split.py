@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-Step 3 of Milestone 1: assemble positive/negative sets per stress and do the
+Step 3: assemble positive/negative sets per stress and do the
 7:3 train/test split -- the final "curated non-redundant FASTA dataset"
-deliverable for Milestone 1.
 
 For stress X:
   - positive = its own CD-HIT'd (non-redundant) single-stress set

@@ -149,9 +149,31 @@ a CUDA GPU — developed on an RTX 3060 (6 GB) — and is resumable.
   computational hypotheses requiring experimental validation.
 
 
+
 ## Citation
 
-If you use this code, please cite:
+If you use this code, methodology, or find this repository useful in your research, please cite our published paper:
+
+**Alotaibi, H.; Haroon, M.; Basit, M.; Alhamad, R.** Machine Learning-Based Prediction of Abiotic Stress-Responsive Genes in Date Palm (*Phoenix dactylifera* L.). *Plants* **2026**, *15*(22), 3617.
+
+https://doi.org/10.3390/plants15223617
+
+### BibTeX
+
+```bibtex
+@article{alotaibi2026machine,
+  title={Machine Learning-Based Prediction of Abiotic Stress-Responsive Genes in Date Palm (Phoenix dactylifera L.)},
+  author={Alotaibi, Hidayah and Haroon, Muhammad and Basit, Mahnoor and Alhamad, Roa},
+  journal={Plants},
+  volume={15},
+  number={22},
+  pages={3617},
+  year={2026},
+  doi={10.3390/plants15223617},
+  url={https://doi.org/10.3390/plants15223617}
+}
+```
+
 
 ```
 [citation to be added later]
